@@ -1,0 +1,10 @@
+.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+    background-color: rgb(36, 44, 41) !important;
+}
+.navbar-nav {
+float: right !important;
+}
+
+.nav-item.nav-link { 
+    float: right !important;
+}
