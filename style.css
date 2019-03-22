@@ -22,7 +22,7 @@ p img {
     margin-right: 1rem;
 }
 
-.aboutme {
+.aboutme, .portfolio_grid, #Form-container {
     display: flex;
     justify-content: center;
 }
@@ -37,8 +37,45 @@ p img {
     color: white !important;
 }
 .footer {
-    position: absolute;
+    position: absolute !important;
     width: 100%;
-    bottom: -2;
+    bottom: -1;
     background-color: #212529;
+}
+
+.row {
+    width: 100%;
+    margin-left: 3px;
+}
+
+.col-6 img { 
+    width: 100%;
+}
+
+.col-6 p {
+    text-align: center;
+}
+
+.jumbotron h2 {
+    margin-left: 13.5px;
+}
+
+.aboutme .jumbotron h2 {
+    margin-left: 0;
+}
+
+form {
+    width: 960px;
+    margin-top: 15px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+.form-group.row {
+    display: flex;
+    justify-content: center;
 }
