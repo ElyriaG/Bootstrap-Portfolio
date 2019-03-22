@@ -1,3 +1,7 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
 body {
     background-size: cover;
 }
@@ -22,7 +26,7 @@ p img {
     margin-right: 1rem;
 }
 
-.aboutme, .portfolio_grid, #Form-container {
+.aboutme, .portfolio_grid, .jumbotron_formy {
     display: flex;
     justify-content: center;
 }
@@ -41,6 +45,7 @@ p img {
     width: 100%;
     bottom: -1;
     background-color: #212529;
+    display: block;
 }
 
 .row {
@@ -67,15 +72,30 @@ p img {
 form {
     width: 960px;
     margin-top: 15px;
+    display: flex;
+    justify-content: center;
 }
 
-.form {
+
+.jumbotron.formy {
     display: flex;
     justify-content: center;
     background-color: lightgray;
+    margin-left: 60px;
+    margin-bottom: 226px;
+    padding: 1rem;
 }
 
-.form-group.row {
-    display: flex;
-    justify-content: center;
+.btn.btn-primary { 
+    display: flex !important;
+    justify-content: center !important;
+    margin-left: 428px;
+}
+
+.col-sm-10 {
+    margin-left: 58px;
+}
+h1 {
+    color: white;
+    text-align: center;
 }
