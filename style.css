@@ -1,10 +1,44 @@
-.navbar.navbar-expand-lg.navbar-dark.bg-dark {
-    background-color: rgb(36, 44, 41) !important;
-}
-.navbar-nav {
-float: right !important;
+body {
+    background-size: cover;
 }
 
-.nav-item.nav-link { 
-    float: right !important;
+.navbar-brand {
+    margin-left: 4em;
+    font-size: 23px;
+    padding: 0;
+}
+
+.right-align {
+    position: absolute;
+    right: 5em;
+}
+
+.display-4 {
+    color: rgb(36, 34, 63);
+}
+
+p img {
+    float: left;
+    margin-right: 1rem;
+}
+
+.aboutme {
+    display: flex;
+    justify-content: center;
+}
+.jumbotron {
+    background-color: lightgrey; 
+    width: 960px;
+}
+
+#footer {
+    text-align: center;
+    line-height: 30px;
+    color: white !important;
+}
+.footer {
+    position: absolute;
+    width: 100%;
+    bottom: -2;
+    background-color: #212529;
 }
