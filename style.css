@@ -1,6 +1,5 @@
 html {
     min-height: 100%;
-    _position: relative;
 }
 body {
     background-size: cover;
@@ -61,7 +60,7 @@ p img {
 }
 
 .jumbotron h2 {
-    margin-left: 13.5px;
+    text-align: center;
 }
 
 .aboutme .jumbotron h2 {
