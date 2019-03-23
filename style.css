@@ -1,6 +1,6 @@
 html {
     min-height: 100%;
-    position: relative;
+    _position: relative;
 }
 body {
     background-size: cover;
@@ -26,7 +26,7 @@ p img {
     margin-right: 1rem;
 }
 
-.aboutme, .portfolio_grid, .jumbotron_formy {
+.aboutme, .portfolio_grid, .formy {
     display: flex;
     justify-content: center;
 }
@@ -41,11 +41,10 @@ p img {
     color: white !important;
 }
 .footer {
-    position: absolute !important;
+    position: fixed !important;
     width: 100%;
-    bottom: -1;
+    bottom: 0;
     background-color: #212529;
-    display: block;
 }
 
 .row {
@@ -70,32 +69,39 @@ p img {
 }
 
 form {
-    width: 960px;
     margin-top: 15px;
-    display: flex;
-    justify-content: center;
+    _display: flex;
+    _justify-content: center;
 }
 
-
-.jumbotron.formy {
+.formy {
     display: flex;
     justify-content: center;
     background-color: lightgray;
-    margin-left: 60px;
     margin-bottom: 226px;
     padding: 1rem;
+    justify-content: center;
+    width: 960px;
+    margin: 0 auto;
 }
 
-.btn.btn-primary { 
-    display: flex !important;
-    justify-content: center !important;
-    margin-left: 428px;
+.button { 
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
 
-.col-sm-10 {
-    margin-left: 58px;
+.col-md-10 {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 h1 {
     color: white;
     text-align: center;
+}
+
+.chrissucks {
+    width: 100%;
+    position: relative;
 }
